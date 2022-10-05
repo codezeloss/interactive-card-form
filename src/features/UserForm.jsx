@@ -17,7 +17,7 @@ const UserForm = () => {
     reset: resetNameInput,
   } = useInput((value) => value.trim() !== "");
 
-  // card number Input
+  // Card Number Input
   const ccFormat = (value) => {
     const v = value
       .replace(/\s+/g, "")
