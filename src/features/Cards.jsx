@@ -23,7 +23,7 @@ const Cards = ({ cardNumber, username, month, year, userCVC, formValid }) => {
             </p>
             <div className="flex flex-row justify-between">
               <p className="tracking-[2px] uppercase br2:text-[9px]">
-                {!formValid ? username : "Felicia Leire"}
+                {!formValid ? username : "Jane Appleseed"}
               </p>
               <p className="tracking-[2px] br2:text-[9px]">
                 {!formValid ? `${month}/${year}` : "09/00"}
@@ -41,7 +41,7 @@ const Cards = ({ cardNumber, username, month, year, userCVC, formValid }) => {
         />
         <div className="absolute z-10 top-0 text-white br2:w-[285px]">
           <p className="text-[14px] tracking-[2px] medium mr-[57px] ml-[358px] mt-[111px] br2:text-[9px] br2:mt-[71px] br2:ml-[231px]">
-            {!formValid ? userCVC : "1000000"}
+            {!formValid ? userCVC : "000"}
           </p>
         </div>
       </div>
