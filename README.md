@@ -18,7 +18,7 @@ The challenge is to build out this interactive card details form and get it look
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to:
+The user should be able to:
 
 - Fill in the form and see the card details update in real-time
 - Receive error messages when the form is submitted if:
